@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+body::-webkit-scrollbar {
+    width: 0px; 
+  }
+
+.page1,.page2,.page3,.page4 {
+    width: 100%;
+    height: 100vh;
+    padding: 3%;
+    overflow-x: hidden;
+}
+.page1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00001c;
+}
+.box-cont{
+    width: 50vw;
+    height: fit-content;
+}
+
+#box1 {
+    background: rgb(255, 0, 51);
+    height: 200px;
+    width: 200px;
+    border-radius: 45%;
+}
+
+#box2 {
+    background: rgb(55, 254, 0);
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+#header {
+    color: rgb(223, 238, 255);
+    height: fit-content;
+    line-height: 80px;
+}
+#header #about1{
+    color: rgba(255, 220, 154, 0.651);
+    font-family: "Caveat";
+    font-size: 40px;
+    letter-spacing:4px;
+    line-height: 70px;
+    /* color:#04047e;  */
+    /* text-indent: 25px; */
+}
+#header p{
+    font-size: 50px;
+}
+#header span{
+    font-weight: bold;
+    font-size: 55px;
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+    0% { color: rgb(0, 153, 255); }
+    50% { color: #fafafa; }
+    100% { color: rgb(0, 153, 255); }
+  }
+  .page2 {
+    background: #00060d;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#box3 {
+    background: rgb(55, 254, 0);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#text2{
+    font-size: 70px;
+}
+
+.page3{
+    background-color: #001137;
+}
+
+.page3 #text3 h1{
+    font-size: 29vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+}
+.page4{
+    background: #050e00;
+}
