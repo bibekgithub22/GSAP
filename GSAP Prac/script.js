@@ -47,7 +47,7 @@ gsap.from(" #about1", {
 
 gsap.from(".page2 #box3", {
     rotate: 765,
-    scale:1.2,
+    scale:1.1,
     borderRadius: "5%",
     backgroundColor: "blue",
     scrollTrigger: {
@@ -60,20 +60,22 @@ gsap.from(".page2 #box3", {
 
 gsap.from("#text2", {
     opacity: 0,
-    x: -300,
+    scale:1.2,
+    x: -50,
     scrollTrigger: {
-        scrub:1,
+        scrub:2,
         scroller: "body",
         trigger: "#text2",
         start: "top 80%",
-        ease: "power4.inOut",
     }
 });
 
 
 gsap.to("#text3 h1 ", {
     transform:"translateX(-350%)",
+    
     scrollTrigger:{
+        
         trigger:".page3 ",
         scroller:"body",
         start: "top 0%",
