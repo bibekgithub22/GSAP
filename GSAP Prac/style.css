@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
 #header #about1{
     color: rgba(255, 220, 154, 0.651);
     
-    font-size: 50px;
+    font-size: 35px;
     letter-spacing:4px;
     line-height: 70px;
     /* color:#04047e;  */
@@ -103,3 +103,4 @@ body::-webkit-scrollbar {
 .page4{
     background: #050e00;
 }
+
